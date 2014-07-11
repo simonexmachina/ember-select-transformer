@@ -19,7 +19,7 @@
     "ember-addon/",
     "index.js"
   ],
-  "devDependencies": {
+  "dependencies": {
     "select-transformer": "^0.1.4"
   }
 }
