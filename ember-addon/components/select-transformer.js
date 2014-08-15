@@ -13,6 +13,7 @@ export default Ember.Select.extend({
     }, this);
     function update() {
       Ember.run.next(this, function() {
+        if (this.get('isDestroyed')) return;
         this.$().trigger('change');
       });
     }

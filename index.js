@@ -5,10 +5,12 @@ var EmberAddon = function() {};
 
 EmberAddon.prototype.treeFor = function treeFor(type) {
   if (type == 'app') {
-    return unwatchedTree(path.join('node_modules', 'ember-select-transformer', 'ember-addon'));
+    var tree = path.join('node_modules', 'ember-select-transformer', 'ember-addon');
+    return unwatchedTree(tree);
 	}
   else if (type == 'vendor') {
-    return unwatchedTree(path.join('node_modules', 'ember-select-transformer', 'node_modules'));
+    var tree = path.join('node_modules', 'ember-select-transformer', 'node_modules');
+    return unwatchedTree(tree);
   }
 };
 
