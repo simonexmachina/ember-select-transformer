@@ -20,6 +20,6 @@
     "index.js"
   ],
   "dependencies": {
-    "select-transformer": "^0.1.4"
+    "select-transformer": "^1.0.0"
   }
 }
