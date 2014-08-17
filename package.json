@@ -1,6 +1,6 @@
 {
   "name": "ember-select-transformer",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Transforms HTML select elements into groups of radio buttons or checkboxes",
   "authors": [
     "Simon Wade"
