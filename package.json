@@ -16,7 +16,7 @@
     "url": "http://github.com/aexmachina/ember-select-transformer.git"
   },
   "files": [
-    "ember-addon/",
+    "app/",
     "index.js"
   ],
   "dependencies": {
